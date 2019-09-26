@@ -23,6 +23,7 @@ ios面试问题收集
 答案：https://juejin.im/post/5d3811e7e51d4556bc067056
 
 11.请讲一讲苹果的内存管理机制？copy修饰数组，可变字符串会怎样？
+https://juejin.im/post/5d8c6194518825781d44bdd2
 
 12.layer和view什么关系。
 
