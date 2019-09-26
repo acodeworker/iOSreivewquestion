@@ -26,6 +26,7 @@ ios面试问题收集
 https://juejin.im/post/5d8c6194518825781d44bdd2
 
 12.layer和view什么关系。
+https://www.jianshu.com/p/7cc9b8e2889d
 
 13.有没有实现过一个socket，如何实现的？
 
