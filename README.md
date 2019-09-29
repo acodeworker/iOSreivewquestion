@@ -35,3 +35,7 @@ https://juejin.im/post/5d8cccd8518825096303406d
 15.runloop是什么？你项目中哪里用到了？
 
 16.你是如何理解runtime的？项目中哪里用到了？
+
+17.block为什么引起循环引用，在block中访问成员变量，如何避免循环引用？
+https://juejin.im/post/5d904dccf265da5baa5af1f7
+
