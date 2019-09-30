@@ -44,11 +44,17 @@ https://juejin.im/post/5d50cf9bf265da03bb4a9b02
 
 19.字典，数组什么时候会崩溃？
 字典在key或value为nil的时候会crash，数组越界，或者是在插入nil时。
+
 20.iOS中有哪些锁？
+
 21.kvc的流程
+
 22.fmdb是异步的吗
+
 23.sdwebimage源码解读sdwebimage存图片的key，多个图片是如何分配在不同的线程的？
+
 24.常见的加密算法？
+https://juejin.im/post/5d91c421e51d4577f00668a7
 
 
    
