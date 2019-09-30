@@ -38,4 +38,7 @@ https://juejin.im/post/5d8cccd8518825096303406d
 
 17.block为什么引起循环引用，在block中访问成员变量，如何避免循环引用？
 https://juejin.im/post/5d904dccf265da5baa5af1f7
+18.objc_msgsender(receiver,selector)传递的参数在哪里？
+https://juejin.im/post/5d50cf9bf265da03bb4a9b02 
+
 
