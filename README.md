@@ -56,6 +56,9 @@ https://juejin.im/post/5d50cf9bf265da03bb4a9b02
 24.常见的加密算法？
 https://juejin.im/post/5d91c421e51d4577f00668a7
 
+25.timer 后台运行
+https://www.cnblogs.com/edensyd/p/8694820.html
+
 
    
 
