@@ -60,6 +60,10 @@ https://juejin.im/post/5d91c421e51d4577f00668a7
 25.timer 后台运行
 https://www.cnblogs.com/edensyd/p/8694820.html
 
+27.多个网络请求如何同步？
+gcd的group。
+
+
 
    
 
