@@ -18,8 +18,41 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self drawMyLayer];
+   NSLog(@"%@", [self inputArray:@[@(2),@(7),@(11),@(15)] target:9]);
 }
+
+//算法题目：
+
+/**
+ 给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。
+ 
+ 你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。
+ 
+ 示例:
+ 
+ 给定 nums = [2, 7, 11, 15], target = 9
+ 
+ 因为 nums[0] + nums[1] = 2 + 7 = 9
+ 所以返回 [0, 1]
+ */
+- (NSArray*)inputArray:(NSArray*)sourceArray target:(NSInteger)target{
+    NSMutableDictionary* dic = [NSMutableDictionary dictionaryWithCapacity:sourceArray.count];
+    for (int i = 0; i<sourceArray.count; i++) {
+        NSNumber* num = sourceArray[i];
+        [dic setObject:@(i) forKey:num];
+    }
+    for (int i = 0; i<sourceArray.count; i++) {
+        NSInteger num = target - [sourceArray[i] integerValue];
+        if ([dic objectForKey:@(num)]) {//找到了
+            NSNumber* index = [dic objectForKey:@(num)];
+            return @[index, @(i)];
+        };
+     }
+    
+    return @[];
+}
+
+
 
 #pragma mark 绘制图层
 -(void)drawMyLayer{
