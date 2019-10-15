@@ -13,8 +13,9 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
 
-    NSLog(@"%@", [Leetcode inputArray:@[@(2),@(7),@(11),@(15)] target:22]);
+//    NSLog(@"%@", [Leetcode inputArray:@[@(2),@(7),@(11),@(15)] target:22]);
     
+    NSLog(@"%@", [Leetcode iputString:@"abcabcbb"]);
     }
     return 0;
 }

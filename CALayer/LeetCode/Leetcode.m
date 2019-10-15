@@ -84,5 +84,46 @@
     return @[];
 }
 
+/**
+ 给定一个字符串，找出不含有重复字符的 最长子串 的长度。
+ 示例：
+ 给定 "abcabcbb" ，没有重复字符的最长子串是 "abc" ，那么长度就是3。
+ 
+ 给定 "bbbbb" ，最长的子串就是 "b" ，长度是1。
+ 
+ 给定 "pwwkew" ，最长子串是 "wke" ，长度是3。请注意答案必须是一个 子串 ， "pwke" 是 子序列 而不是子串。
+ */
+
++ (NSString*)iputString:(NSString*)sourceString{
+    
+    NSMutableDictionary* dic = [NSMutableDictionary dictionaryWithCapacity:10];
+    NSMutableString* string = nil;
+    for (int i = 0; i<[sourceString length]; i++) {
+        NSString* character = [sourceString substringWithRange:NSMakeRange(i, 1)];;
+        if(!string.length) {
+            string = [NSMutableString stringWithString:character];
+        }else if([string rangeOfString:character].location == NSNotFound){//不重复
+            [string appendString:character];
+            if (i == [sourceString length] -1) {
+                [dic setObject:string forKey:@(string.length)];
+
+            }
+        }else{
+            [dic setObject:string forKey:@(string.length)];
+            string = nil;
+        }
+    }
+    __block NSString* targetString = nil;
+    [[dic allValues]enumerateObjectsUsingBlock:^( NSString*  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (targetString == nil) {
+            targetString = obj;
+        }else if (obj.length >targetString.length){
+            targetString = obj;
+        }
+    }];
+    return targetString;
+}
+
+
 
 @end
