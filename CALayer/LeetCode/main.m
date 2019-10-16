@@ -15,7 +15,8 @@ int main(int argc, const char * argv[]) {
 
 //    NSLog(@"%@", [Leetcode inputArray:@[@(2),@(7),@(11),@(15)] target:22]);
     
-        char greeting[] = "hello\n";
+     NSLog(@"%@", [Leetcode iputString:@"abcabcbb"]);
+         char greeting[] = "hello\n";
         char greeting2[] = "helloddd\n";
 
         printf("%p",strchr(greeting2, 'l'));
@@ -24,7 +25,7 @@ int main(int argc, const char * argv[]) {
         printf("%p",strchr(greeting2, 'l'));
 
          printf("%p",strchr(greeting2, 'l'));
-    }
+     }
     return 0;
 }
 
