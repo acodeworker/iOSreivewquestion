@@ -23,6 +23,7 @@ int main(int argc, const char * argv[]) {
 
 //    NSLog(@"%@", [Leetcode inputArray:@[@(2),@(7),@(11),@(15)] target:22]);
     
+<<<<<<< HEAD
 //     NSLog(@"%@", [Leetcode iputString:@"abcabcbb"]);
         FILE *fp = NULL;
         
@@ -44,6 +45,18 @@ int main(int argc, const char * argv[]) {
 
         fclose(fp);
         
+=======
+     NSLog(@"%@", [Leetcode iputString:@"abcabcbb"]);
+        char greeting[] = "hello\n";
+        char greeting2[] = "helloddd\n";
+
+        printf("%p",strchr(greeting2, 'l'));
+        printf("%p",strchr(greeting2, 'l'));
+        printf("%p",strchr(greeting2, 'l'));
+        printf("%p",strchr(greeting2, 'l'));
+
+         printf("%p",strchr(greeting2, 'l'));
+>>>>>>> refs/remotes/origin/master
      }
     return 0;
 }
