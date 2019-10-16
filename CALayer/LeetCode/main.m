@@ -18,6 +18,11 @@ int main(int argc, const char * argv[]) {
         char greeting[] = "hello\n";
         char greeting2[] = "helloddd\n";
 
+        printf("%p",strchr(greeting2, 'l'));
+        printf("%p",strchr(greeting2, 'l'));
+        printf("%p",strchr(greeting2, 'l'));
+        printf("%p",strchr(greeting2, 'l'));
+
          printf("%p",strchr(greeting2, 'l'));
     }
     return 0;
