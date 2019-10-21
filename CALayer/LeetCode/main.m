@@ -6,8 +6,15 @@
 //  Copyright © 2019 Jeremy. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "Leetcode.h"
+
+struct Books
+{
+    char title[50];
+    char author[50];
+    char suject[50];
+    int book_id;
+};
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -15,11 +22,15 @@ int main(int argc, const char * argv[]) {
 
 //    NSLog(@"%@", [Leetcode inputArray:@[@(2),@(7),@(11),@(15)] target:22]);
     
+ 
+ 
 //     NSLog(@"%@", [Leetcode iputString:@"abcabcbb"]);
-        
-        
-        
-        
+  
+     NSLog(@"%@", [Leetcode iputString:@"abcabcbb"]);
+        char greeting[] = "hello\n";
+        char greeting2[] = "helloddd\n";
+
+ 
      }
     return 0;
 }
