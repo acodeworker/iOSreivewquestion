@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Leetcode.h"
+#import "Linklist.h"
 
 struct Books
 {
@@ -17,47 +18,15 @@ struct Books
     int book_id;
 };
 
+
+
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-
-//    NSLog(@"%@", [Leetcode inputArray:@[@(2),@(7),@(11),@(15)] target:22]);
-    
-<<<<<<< HEAD
-//     NSLog(@"%@", [Leetcode iputString:@"abcabcbb"]);
-        FILE *fp = NULL;
-        
-        fp = fopen("/Users/jeremy/Desktop/test.txt", "r+");
-//        fprintf(fp, "This is testing for fprintf...\n");
-//        fputs("This is testing for fputs...\n", fp);
-//        fclose(fp);
-         char buff[255];
-        
-
-        fprintf(fp, "This is testing for fprintf...\n");
-        fseek(fp, 10, SEEK_SET);
-        if (fputc(65,fp) == EOF) {
-            printf("fputc fail");
-        }
-        fgets(buff, 255, (FILE*)fp);
-        printf("2: %s\n", buff );
-        
-
-        fclose(fp);
-        
-=======
-     NSLog(@"%@", [Leetcode iputString:@"abcabcbb"]);
-        char greeting[] = "hello\n";
-        char greeting2[] = "helloddd\n";
-
-        printf("%p",strchr(greeting2, 'l'));
-        printf("%p",strchr(greeting2, 'l'));
-        printf("%p",strchr(greeting2, 'l'));
-        printf("%p",strchr(greeting2, 'l'));
-
-         printf("%p",strchr(greeting2, 'l'));
->>>>>>> refs/remotes/origin/master
-     }
+        int a[10] = {9,12,31,91,4,1,2,8,5,0};
+//        sizeof(a)/sizeof(int)
+        sortArray(a);
+      }
     return 0;
 }
 
