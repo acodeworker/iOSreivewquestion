@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F665E6F23575FDC00392DB8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F665E6E23575FDC00392DB8 /* main.cpp */; };
-		C107C7062361BDEF009E10EC /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C107C7042361BDEF009E10EC /* Person.cpp */; };
+		C167814E2356AE9A002710F4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C167814D2356AE9A002710F4 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3F665E6923575FDC00392DB8 /* CopyFiles */ = {
+		C16781482356AE9A002710F4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3F665E6B23575FDC00392DB8 /* LetCodeC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LetCodeC++"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F665E6E23575FDC00392DB8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C107C7042361BDEF009E10EC /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
-		C107C7052361BDEF009E10EC /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		C167814A2356AE9A002710F4 /* C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C167814D2356AE9A002710F4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F665E6823575FDC00392DB8 /* Frameworks */ = {
+		C16781472356AE9A002710F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,97 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F665E6223575FDC00392DB8 = {
+		C16781412356AE9A002710F4 = {
 			isa = PBXGroup;
 			children = (
-				3F665E6D23575FDC00392DB8 /* LetCodeC++ */,
-				3F665E6C23575FDC00392DB8 /* Products */,
+				C167814C2356AE9A002710F4 /* C++ */,
+				C167814B2356AE9A002710F4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F665E6C23575FDC00392DB8 /* Products */ = {
+		C167814B2356AE9A002710F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F665E6B23575FDC00392DB8 /* LetCodeC++ */,
+				C167814A2356AE9A002710F4 /* C++ */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F665E6D23575FDC00392DB8 /* LetCodeC++ */ = {
+		C167814C2356AE9A002710F4 /* C++ */ = {
 			isa = PBXGroup;
 			children = (
-				3F665E6E23575FDC00392DB8 /* main.cpp */,
-				C107C7052361BDEF009E10EC /* Person.hpp */,
-				C107C7042361BDEF009E10EC /* Person.cpp */,
+				C167814D2356AE9A002710F4 /* main.cpp */,
 			);
-			path = "LetCodeC++";
+			path = "C++";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F665E6A23575FDC00392DB8 /* LetCodeC++ */ = {
+		C16781492356AE9A002710F4 /* C++ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F665E7223575FDC00392DB8 /* Build configuration list for PBXNativeTarget "LetCodeC++" */;
+			buildConfigurationList = C16781512356AE9A002710F4 /* Build configuration list for PBXNativeTarget "C++" */;
 			buildPhases = (
-				3F665E6723575FDC00392DB8 /* Sources */,
-				3F665E6823575FDC00392DB8 /* Frameworks */,
-				3F665E6923575FDC00392DB8 /* CopyFiles */,
+				C16781462356AE9A002710F4 /* Sources */,
+				C16781472356AE9A002710F4 /* Frameworks */,
+				C16781482356AE9A002710F4 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "LetCodeC++";
-			productName = "LetCodeC++";
-			productReference = 3F665E6B23575FDC00392DB8 /* LetCodeC++ */;
+			name = "C++";
+			productName = "C++";
+			productReference = C167814A2356AE9A002710F4 /* C++ */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F665E6323575FDC00392DB8 /* Project object */ = {
+		C16781422356AE9A002710F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1030;
-				ORGANIZATIONNAME = Jeremy;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = zmodo;
 				TargetAttributes = {
-					3F665E6A23575FDC00392DB8 = {
-						CreatedOnToolsVersion = 10.3;
+					C16781492356AE9A002710F4 = {
+						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
-			buildConfigurationList = 3F665E6623575FDC00392DB8 /* Build configuration list for PBXProject "LetCodeC++" */;
+			buildConfigurationList = C16781452356AE9A002710F4 /* Build configuration list for PBXProject "C++" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 3F665E6223575FDC00392DB8;
-			productRefGroup = 3F665E6C23575FDC00392DB8 /* Products */;
+			mainGroup = C16781412356AE9A002710F4;
+			productRefGroup = C167814B2356AE9A002710F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F665E6A23575FDC00392DB8 /* LetCodeC++ */,
+				C16781492356AE9A002710F4 /* C++ */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F665E6723575FDC00392DB8 /* Sources */ = {
+		C16781462356AE9A002710F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C107C7062361BDEF009E10EC /* Person.cpp in Sources */,
-				3F665E6F23575FDC00392DB8 /* main.cpp in Sources */,
+				C167814E2356AE9A002710F4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3F665E7023575FDC00392DB8 /* Debug */ = {
+		C167814F2356AE9A002710F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -163,7 +158,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -190,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		3F665E7123575FDC00392DB8 /* Release */ = {
+		C16781502356AE9A002710F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +216,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -242,7 +235,7 @@
 			};
 			name = Release;
 		};
-		3F665E7323575FDC00392DB8 /* Debug */ = {
+		C16781522356AE9A002710F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -250,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		3F665E7423575FDC00392DB8 /* Release */ = {
+		C16781532356AE9A002710F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -261,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F665E6623575FDC00392DB8 /* Build configuration list for PBXProject "LetCodeC++" */ = {
+		C16781452356AE9A002710F4 /* Build configuration list for PBXProject "C++" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F665E7023575FDC00392DB8 /* Debug */,
-				3F665E7123575FDC00392DB8 /* Release */,
+				C167814F2356AE9A002710F4 /* Debug */,
+				C16781502356AE9A002710F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F665E7223575FDC00392DB8 /* Build configuration list for PBXNativeTarget "LetCodeC++" */ = {
+		C16781512356AE9A002710F4 /* Build configuration list for PBXNativeTarget "C++" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F665E7323575FDC00392DB8 /* Debug */,
-				3F665E7423575FDC00392DB8 /* Release */,
+				C16781522356AE9A002710F4 /* Debug */,
+				C16781532356AE9A002710F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F665E6323575FDC00392DB8 /* Project object */;
+	rootObject = C16781422356AE9A002710F4 /* Project object */;
 }

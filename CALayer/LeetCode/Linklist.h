@@ -16,10 +16,13 @@ typedef struct linkList{
     struct linkList* next;
 }LinkList;
 
-/*
+ /*
  *https://zhidao.baidu.com/question/122162641.html
  */
 int sortArray(int a[10]);
-
+ 
+//快速排序nlogn
+void fastSort(int array[],int l,int r);
+ 
 
 #endif /* Linklist_h */
