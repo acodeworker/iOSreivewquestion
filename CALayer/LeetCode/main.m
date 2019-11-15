@@ -7,6 +7,7 @@
 //
 
 #import "Leetcode.h"
+#import "Linklist.h"
 
 struct Books
 {
@@ -19,19 +20,11 @@ struct Books
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-
-//    NSLog(@"%@", [Leetcode inputArray:@[@(2),@(7),@(11),@(15)] target:22]);
-    
- 
- 
-//     NSLog(@"%@", [Leetcode iputString:@"abcabcbb"]);
-  
-     NSLog(@"%@", [Leetcode iputString:@"abcabcbb"]);
-        char greeting[] = "hello\n";
-        char greeting2[] = "helloddd\n";
-
- 
-     }
+        int a[10] = {6,1,2,7,9,3,4,5,11,9};
+        fastSort(a, 0, 9);
+        for (int i =0; i< 10; i++) {
+            printf("%d\n",a[i]);
+        }     }
     return 0;
 }
 

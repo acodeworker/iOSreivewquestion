@@ -16,4 +16,8 @@ typedef struct linkList{
     struct linkList* next;
 }LinkList;
 
+
+void fastSort(int array[],int l,int r);
+
+
 #endif /* Linklist_h */

@@ -206,3 +206,40 @@ int reverse (int x){
 //    return true;
 //}
 
+//快速排序         int a[10] = {6,1,2,7,9,3,4,5,11,9};
+
+//https://www.cnblogs.com/menglong1108/p/11749616.html
+void fastSort(int array[],int l,int r){
+    int left,right,flag,temp;
+    if (l >= r) {
+
+        return ;
+    }
+    left = l;
+    right = r;
+    flag = array[l];
+    while ( left< right) {
+        //先从右侧找
+        while (array[right] >= flag && left< right) {
+            right -- ;
+        }
+        //从左侧
+         while (array[left] <= flag && left< right) {
+            left ++ ;
+        }
+         
+        //交换
+        if (left< right) {
+            temp = array[left];
+            array[left] = array[right];
+            array[right] = temp;
+        }
+        
+    }
+    //把基准值放中间
+    array [l] = array[left];
+    array[left]= flag;
+    // 分别递归
+    fastSort(array, l, left - 1);
+    fastSort(array, left + 1, r);
+}
