@@ -98,6 +98,21 @@ int destorylinkList(LinkList* list){
 }
 
 //反转链表
+/**
+ 逻辑：head->[a1,next]-->[a2,next]-->[a3,next]->[a4,next]
+ 
+ [pre,]->[curr,]->[a1,next]-->[a2,next]-->[a3,next]->[a4,next]
+    [next] = [a1,next];
+    [curr,]->[a2,next]-->[a3,next]->[a4,next]
+ //第一次循环结果，a1被移动到左端、、、每次循环操作的都是current右侧一个元素。
+ [pre,]->[a1,]->[curr,]->[a2,next]-->[a3,next]->[a4,next]
+  //第二次循环结果，a2被移动到左端。
+ [pre,]->[a2,next]->[a1,]->[curr,]-->[a3,next]->[a4,next]
+ //最终
+ [pre,]->[a4,next]-->[a3,next]->[a2,next]->[a1,]->[curr,]
+
+ */
+
 LinkList* rotateLinkList(LinkList* list){
     LinkList* prelist,*currentList,*NextList;
     prelist = malloc(sizeof(LinkList));
